@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+    color:black;
+    
+    
+}
+nav a{
+    width:12%;
+    text-align: center;
+    display:inline-block;
+    padding:2%;
+    border:2%;
+    margin: 1.5%;
+    background-color: chocolate;
+}
+header{
+    background-color:chocolate;
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    
+}
+nav{
+  
+    background-image: linear-gradient(chocolate,purple);
+    position:fixed;
+    top:0.1;
+    width:100%;
+    
+}
+body{
+    background-color: cornflowerblue;
+    background-image: linear-gradient(to right ,rgb(54, 54, 219),rgb(240, 40, 40));
+}
+
+p{
+    font-family: cursive;
+    font-variant: small-caps;
+}
+#beverages,#home,article{
+    display: inline-block;
+    height:500px;
+    width:500px;
+    margin: 5% 25% 5% 27%;
+    background-repeat: no-repeat;
+}
+ nav a:hover{
+     background-color: blanchedalmond;
+ }
+nav a:active{
+    background-color: brown;
+}
+a:hover{
+    color:red;
+}
